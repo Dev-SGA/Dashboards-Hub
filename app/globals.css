@@ -100,20 +100,7 @@ body {
   object-fit: cover;
   object-position: top center;
   display: block;
-}
-
-.card__session {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: rgba(7, 35, 52, 0.85);
-  border: 1px solid var(--sga-border);
-  color: var(--sga-white);
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 4px 10px;
-  border-radius: 999px;
+  opacity: 0.85;
 }
 
 .card__body {

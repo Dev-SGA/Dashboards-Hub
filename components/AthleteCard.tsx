@@ -10,7 +10,6 @@ export function AthleteCard({ athlete }: { athlete: Athlete }) {
     >
       <div className="card__photo-wrap">
         <img className="card__photo" src={athlete.photo} alt={athlete.name} />
-        <span className="card__session">Stats {athlete.session}</span>
       </div>
       <div className="card__body">
         <div className="card__info">

@@ -4,7 +4,6 @@ export type Athlete = {
   photo: string;
   clubLogo?: string;
   url: string;
-  session: string;
 };
 
 export const ATHLETES: Athlete[] = [
@@ -14,7 +13,6 @@ export const ATHLETES: Athlete[] = [
     photo: "/player/ben-dezalovski.jpeg",
     clubLogo: "/clubs/club-ohio.png",
     url: "https://ben-dezalovski-stats001.vercel.app/",
-    session: "001",
   },
   {
     name: "Hudson Cicala",
@@ -22,7 +20,6 @@ export const ATHLETES: Athlete[] = [
     photo: "/player/hudson-cicala-16.png",
     clubLogo: "/clubs/fc-cincinnati.png",
     url: "https://hudson-cicala-stats002.vercel.app/",
-    session: "002",
   },
   {
     name: "Lincoln Cicala",
@@ -30,7 +27,6 @@ export const ATHLETES: Athlete[] = [
     photo: "/player/lincoln-cicala.png",
     clubLogo: "/clubs/fc-cincinnati.png",
     url: "https://lincoln-cicala-stats001.vercel.app/",
-    session: "001",
   },
   {
     name: "Joel Barson",
@@ -38,21 +34,19 @@ export const ATHLETES: Athlete[] = [
     photo: "/player/joel-barson.jpeg",
     clubLogo: "/clubs/fc-cincinnati.png",
     url: "https://joel-barson-stats001.vercel.app/",
-    session: "002",
   },
   {
     name: "Danilo Reis",
     club: "Players Development Academy",
     photo: "/player/danilo-reis.jpeg",
     url: "https://danilo-reis-stats001.vercel.app/",
-    session: "001",
   },
   {
     name: "Maddox Choate",
     club: "Houston Dynamo",
     photo: "/player/maddox-choate.png",
+    clubLogo: "/clubs/houston-dynamo.svg",
     url: "https://maddox-choate-stats001.vercel.app/",
-    session: "001",
   },
 ];
 
