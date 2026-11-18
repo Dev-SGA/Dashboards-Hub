@@ -48,6 +48,20 @@ export const ATHLETES: Athlete[] = [
     clubLogo: "/clubs/houston-dynamo.svg",
     url: "https://maddox-choate-stats001.vercel.app/",
   },
+  {
+    name: "Kai Vadivelu",
+    club: "Cincinnati United SC",
+    photo: "/player/kai-vadivelu.jpg",
+    clubLogo: "/clubs/cincinnati-united.png",
+    url: "https://kai-vadivelu-stats001.vercel.app/",
+  },
+  {
+    name: "Blake Wilson",
+    club: "St. Louis City SC",
+    photo: "/player/blake-wilson.png",
+    clubLogo: "/clubs/st-louis-city.png",
+    url: "https://blake-wilson-stats001.vercel.app/",
+  },
 ];
 
 export function clubInitials(club: string): string {
